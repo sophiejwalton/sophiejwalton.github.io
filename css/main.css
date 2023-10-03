@@ -4,6 +4,10 @@
 nav ul { font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; margin-top: 0px; margin-bottom: 30px; }
 nav ul li { display: inline; margin-right: 20px; }
 
+img {
+      float: left;
+      margin: 5px;
+    }
 
 /* Scale from center */
 li:nth-child(3) a::after {
