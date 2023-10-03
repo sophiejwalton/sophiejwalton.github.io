@@ -34,7 +34,7 @@ img {
 }
 
 a { font-size: 20px; line-height: 1.4em; text-decoration: none; color: #878787; }
-a:hover, #about.active, #research.active, #publications.active, #teachingoutreach { font-size: 20px; line-height: 1.4em; text-decoration: none; color: #000000 }
+a:hover, #about.active, #research.active, #publications.active, #teachingoutreach.active { font-size: 20px; line-height: 1.4em; text-decoration: none; color: #000000 }
 
 
 h1 { font-size: 40px; font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'Sans-Serif'; margin-bottom: 10px; overflow: visible !important;}
