@@ -4,8 +4,21 @@
 nav ul { font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; margin-top: 0px; margin-bottom: 30px; }
 nav ul li { display: inline; margin-right: 20px; }
 
+
+/* Scale from center */
+li:nth-child(3) a::after {
+  opacity 1;
+  transform: scale(0);
+  transform-origin: center;
+}
+
+li:nth-child(3) a:hover::after,
+li:nth-child(3) a:focus::after{
+  transform: scale(1);
+}
+
 a { font-size: 20px; line-height: 1.4em; text-decoration: none; color: #878787; }
-a:hover, #about.active, #research.active, #publications.active, #teachingoutreach { font-size: 20px; line-height: 1.4em; text-decoration: none; color: #3CCCC3; }
+a:hover, #about.active, #research.active, #publications.active, #teachingoutreach { font-size: 20px; line-height: 1.4em; text-decoration: none; color: #878787; }
 
 
 h1 { font-size: 40px; font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'Sans-Serif'; margin-bottom: 10px; overflow: visible !important;}
